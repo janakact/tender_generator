@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <link rel="stylesheet" href="/static/foundation.min.css">
     <table class="row">
       <tr>
       <td width="50%">
