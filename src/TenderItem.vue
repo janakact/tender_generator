@@ -1,5 +1,5 @@
 <template id="task-item">
-  <li v-if="isAdded" class="tasks__item">
+  <li v-if="isAdded" class="tender__item">
       {{ task.title }}
   </li>
 </template>
@@ -18,5 +18,7 @@ export default {
 </script>
 
 <style>
-
+.tender__item{
+    padding: .8em;
+}
 </style>

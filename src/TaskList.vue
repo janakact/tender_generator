@@ -1,13 +1,13 @@
 
 <template id="task-list">
   <section class="tasks">
-    <h1>
+    <h3>
       Electronic Equipments
       <transition name="fade">
         <small v-if="incomplete">({{ incomplete }})</small>
       </transition>
 
-    </h1>
+    </h3>
     <div class="tasks__new input-group">
       <input type="text" class="input-group-field" v-model="newTask" @keyup.enter="addTask" placeholder="New task">
       <span class="input-group-button">
